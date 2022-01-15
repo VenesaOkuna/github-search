@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { GithubAppComponent } from './github-app/github-app.component';
 import { GithubProfileComponent } from './github-profile/github-profile.component';
 import { GithubProfileCardComponent } from './github-profile-card/github-profile-card.component';
+import { GithubProfileDataComponent } from './github-profile-data/github-profile-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubAppComponent,
     GithubProfileComponent,
-    GithubProfileCardComponent
+    GithubProfileCardComponent,
+    GithubProfileDataComponent
   ],
   imports: [
     BrowserModule,
