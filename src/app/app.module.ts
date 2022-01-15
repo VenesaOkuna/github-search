@@ -11,6 +11,7 @@ import { GithubReposComponent } from './github-repos/github-repos.component';
 import { UsersComponent } from './users/users.component';
 import { UserRepoComponent } from './user-repo/user-repo.component';
 import { ReposComponent } from './repos/repos.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ReposComponent } from './repos/repos.component';
     GithubReposComponent,
     UsersComponent,
     UserRepoComponent,
-    ReposComponent
+    ReposComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
