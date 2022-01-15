@@ -10,6 +10,7 @@ import { GithubProfileDataComponent } from './github-profile-data/github-profile
 import { GithubReposComponent } from './github-repos/github-repos.component';
 import { UsersComponent } from './users/users.component';
 import { UserRepoComponent } from './user-repo/user-repo.component';
+import { ReposComponent } from './repos/repos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UserRepoComponent } from './user-repo/user-repo.component';
     GithubProfileDataComponent,
     GithubReposComponent,
     UsersComponent,
-    UserRepoComponent
+    UserRepoComponent,
+    ReposComponent
   ],
   imports: [
     BrowserModule,
