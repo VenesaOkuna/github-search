@@ -1,17 +1,19 @@
 .foot{
     position: fixed;
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
     bottom: 0vh;
     width: 100vw;
     border: 2px solid #AE887B;
     background-color: #AE887B;
-    padding: 1.5em;
+    padding: 1em;
     color: #F0DED0;
     
 }
 
 p{
     position: fixed;
-    left: 35em;
-    bottom: 1em;
+    left: 20em;
+    bottom: 0.3em;
 
 }

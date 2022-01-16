@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+    font-family: 'Dongle', sans-serif;
+    top: 0vh;
+    width: 100vw;
+    border: 2px solid #AE887B;
+    background-color: #AE887B;
+    padding: 1.5em;
+}
+
+.one{
+    position: absolute;
+    top: 0em;
+    left: 2em;
+    font-size: 48px;
+}
+
+.two{
+    position: absolute;
+    top: 0.5em;
+    right: 5em;
+    font-size: 28px;
+}
+
+.three{
+    position: absolute;
+    top: 0.5em;
+    right: 12em;
+    font-size: 28px;
+}
