@@ -9,14 +9,14 @@
 }
 
 .one{
-    position: absolute;
+    position: fixed;
     top: 0em;
     left: 2em;
     font-size: 48px;
 }
 
 .two{
-    position: absolute;
+    position: fixed;
     top: 0.5em;
     right: 5em;
     font-size: 28px;
@@ -28,3 +28,7 @@
     right: 12em;
     font-size: 28px;
 }
+
+/* .heroimage{
+    position: absolute;
+} */

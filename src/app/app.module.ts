@@ -11,6 +11,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { UserRepoComponent } from './user-repo/user-repo.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HeroimageComponent } from './heroimage/heroimage.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     NavigationComponent,
     UserRepoComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    HeroimageComponent
   ],
   imports: [
     BrowserModule,
