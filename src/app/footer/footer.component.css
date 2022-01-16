@@ -1,6 +1,6 @@
 .foot{
-    position: absolute;
-    bottom: 0em;
+    position: fixed;
+    bottom: 0vh;
     width: 100vw;
     border: 2px solid #AE887B;
     background-color: #AE887B;
@@ -10,7 +10,7 @@
 }
 
 p{
-    position: absolute;
+    position: fixed;
     left: 35em;
     bottom: 1em;
 
