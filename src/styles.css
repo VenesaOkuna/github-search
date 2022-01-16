@@ -1,15 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cookie&family=DM+Serif+Display:ital@1&family=Dongle&family=Exo+2:wght@100&family=Sacramento&family=Saira+Condensed:wght@100&display=swap');
+
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 body {
-    background-color: #040D21;
+    background-color: #e7e5d9;
+    /* background-image: url(https://images.unsplash.com/photo-1493957988430-a5f2e15f39a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat; */
+
 }
 
 .bg-items {

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from "../user";
 
-import { SearchService } from "../search-service/search.service";
+import { SearchService } from "../search.service";
 
 @Component({
   selector: 'app-users',

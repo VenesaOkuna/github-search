@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Repo } from '../repo';
-import { SearchService } from "../search-service/search.service";
+import { SearchService } from "../search.service";
 
 @Component({
   selector: 'app-repos',
