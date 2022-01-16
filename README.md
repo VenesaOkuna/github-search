@@ -7,7 +7,7 @@ Users may enter a GitHub username into a form, submit it, and see names and desc
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.14.
 
-## Site Screenshot
+## App Design
 
 Here's an image of the design of the site :
 
