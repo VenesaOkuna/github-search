@@ -9,6 +9,7 @@ import { ReposComponent } from './repos/repos.component';
 import { FormsModule } from "@angular/forms";
 import { NavigationComponent } from './navigation/navigation.component';
 import { UserRepoComponent } from './user-repo/user-repo.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UserRepoComponent } from './user-repo/user-repo.component';
     UsersComponent,
     ReposComponent,
     NavigationComponent,
-    UserRepoComponent
+    UserRepoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

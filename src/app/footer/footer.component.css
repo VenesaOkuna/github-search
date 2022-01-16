@@ -1,0 +1,17 @@
+.foot{
+    position: absolute;
+    bottom: 0em;
+    width: 100vw;
+    border: 2px solid #AE887B;
+    background-color: #AE887B;
+    padding: 1.5em;
+    color: #F0DED0;
+    
+}
+
+p{
+    position: absolute;
+    left: 35em;
+    bottom: 1em;
+
+}

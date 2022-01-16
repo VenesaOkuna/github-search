@@ -41,6 +41,7 @@
 }
 
 button {
+    position: absolute;
     color: #fff;
     background: #c3c1ab;
     border: none;
@@ -55,4 +56,22 @@ button {
 
 #user {
     margin-bottom: 20px;
+    bottom: 7em;
+    left: 20em;
+    width: 20em;
+}
+
+#repo{
+    margin-bottom: 20px;
+    bottom: 7em;
+    right: 20em;
+    width: 20em;
+}
+
+#or{
+    margin-bottom: 20px;
+    bottom: 7em;
+    left: 42em;
+    text-shadow: #000 22px;
+      
 }
