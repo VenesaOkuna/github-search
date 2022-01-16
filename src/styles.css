@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
 
+
 }
 
 html {
@@ -16,9 +17,10 @@ html {
 }
 
 body {
-    background-color: #e7e5d9;
-    /* background-image: url(https://images.unsplash.com/photo-1493957988430-a5f2e15f39a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
-    background-repeat: no-repeat; */
+    background-color: #f2f2f2;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v882-adj-02.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=8fb818892c8a8f06db1a3e74f9de1c01);
+    background-repeat: initial;
+
 
 }
 

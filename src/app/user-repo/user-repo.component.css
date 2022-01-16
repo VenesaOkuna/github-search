@@ -1,15 +1,16 @@
 p {
-    color: #EEA06B;
+    color: #ae887b;
 }
 
 ul {
-    color: #EEA06B;
+    color: #ae887b;
     text-decoration: none;
     list-style-type: none;
+    
 }
 
 a {
-    color: #EEA06B;
+    color: #ae887b;
     text-decoration: none;
 }
 
@@ -23,3 +24,4 @@ a {
     transition: 800ms;
     cursor: pointer;
 }
+

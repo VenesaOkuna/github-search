@@ -1,5 +1,5 @@
 .main {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dongle', sans-serif;
     width: 70vw;
     margin: 20px auto;
 }
@@ -11,53 +11,29 @@
     /* background: url(../../assets/img/circles.svg) no-repeat; */
     background-size: 70% 80%;
     background-position: center right;
-    border: 1px solid rgba(255, 133, 110, 0.25);
-    box-shadow: 4px 4px 4px rgba(255, 133, 110, 0.25);
+    background-color: #f2f2f2;
+    border: 1px solid #ae887b;
+    box-shadow: #ae887b;
     border-radius: 10px;
 }
 
 .card p {
-    color: #EEA06B;
+    color: #4b533a;
+    background-color: #f2f2f2;
 }
 
 .logo {
     margin-bottom: 50px;
 }
 
-.gradient-text{
-    background: linear-gradient(90deg, #EEA06B 0%, #FFD973 100%);
-    background-size: 100%;
-    background-clip: text;
-    color: transparent;
-}
-
-#heading {
-    display: inline;
-    font-weight: bold;
-    font-size: 36px;
-}
-
-#sub-heading {
-    display: inline;
-    font-weight: normal;
-    font-size: 18px;
-}
-
-
-#normal-text {
-    margin-left: 100px;
-    display: inline;
-    font-weight: normal;
-    font-size: 18px;
-}
 
 input {
     margin: 20px 0;
     border: none;
-    background-color: transparent;
-    border-bottom: 1px solid #EEA06B;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ae887b;
     padding: 10px 500px 10px 10px;
-    color: #EEA06B;
+    color: #ae887b;
     font-weight: 300;
     font-size: 18px;
     outline: none;
@@ -65,30 +41,34 @@ input {
 
 input::placeholder{
     border: none;
-    background-color: transparent;
+    background-color: #f2f2f2;
     font-weight: 300;
     font-size: 18px;
-    color: #EEA06B;
+    color: #ae887b;
 }
 
 p {
-    color: #EEA06B;
+    color: #ae887b;
+    background-color: #f2f2f2;
 }
 
 ul {
-    color: #EEA06B;
+    color: #ae887b;
     text-decoration: none;
     list-style-type: none;
+    background-color: #f2f2f2;
 }
 
 a {
-    color: #EEA06B;
+    color: #ae887b;
     text-decoration: none;
+    background-color: #f2f2f2;
 }
 
 .list {
     padding: 20px;
     border-bottom: 1px solid #ee9f6b44;
+    background-color: #f2f2f2;
 }
 
 .list:hover {

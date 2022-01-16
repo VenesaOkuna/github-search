@@ -1,92 +1,75 @@
 .main {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dongle', sans-serif;
+    font-size: 18px;
     width: 70vw;
     margin: 20px auto;
 }
 
+
 .card {
-    margin: 20vh auto;
+    margin: 10vh auto;
     padding: 80px 80px;
     width: 90vh;
+    background-color: #f2f2f2;
     /* background: url(../../assets/img/circles.svg) no-repeat; */
     background-size: 70% 80%;
     background-position: center right;
-    border: 1px solid rgba(255, 133, 110, 0.25);
+    /* border: 1px solid rgba(255, 133, 110, 0.25);
     box-shadow: 4px 4px 4px rgba(255, 133, 110, 0.25);
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 
 .card p {
-    color: #EEA06B;
+    color: #ae887b;
+    background-color: #f2f2f2;
 }
 
 .logo {
     margin-bottom: 50px;
 }
 
-.gradient-text{
-    background: linear-gradient(90deg, #EEA06B 0%, #FFD973 100%);
-    background-size: 100%;
-    background-clip: text;
-    color: transparent;
-}
 
-#heading {
-    display: inline;
-    font-weight: bold;
-    font-size: 36px;
-}
-
-#sub-heading {
-    display: inline;
-    font-weight: normal;
-    font-size: 18px;
-}
-
-
-#normal-text {
-    margin-left: 100px;
-    display: inline;
-    font-weight: normal;
-    font-size: 18px;
-}
 
 input {
     margin-top: 20px;
     border: none;
-    background-color: transparent;
-    border-bottom: 1px solid #EEA06B;
+    background-color: #f2f2f2;
+    border: 1px inset #ae887b;
     padding: 10px 500px 10px 10px;
-    color: #EEA06B;
+    color: #ae887b;
     font-weight: 300;
     font-size: 18px;
     outline: none;
 }
 
 input::placeholder{
+    font-family: 'Bad Script', cursive;
     border: none;
-    background-color: transparent;
+    background-color: #f2f2f2;
     font-weight: 300;
     font-size: 18px;
-    color: #EEA06B;
+    color: #ae887b;
 }
 
 button {
-    background: linear-gradient(90deg, #EEA06B 0%, #FFD973 100%);
-    border: none;
+    background: #ae887b;
+    border: outset;
     border-radius: 5px;
     padding: 15px 50px;
     margin: 20px 0;
     font-weight: bold;
     font-size: 14px;
     line-height: 21px;
-    color: #040D21;
+    color: #f2f2f2;
 }
 
 button:hover {
-    background: linear-gradient(90deg, #FFD973 0%, #EEA06B 100%);
+    background: #b4978d;
+    border: inset;
+    
 }
 
+
 app-user-repo {
-    color: #EEA06B;
+    color: #ae887b;
 }

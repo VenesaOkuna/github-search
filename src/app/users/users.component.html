@@ -1,14 +1,15 @@
 <div class="main">
-    <div class="logo">
-      <p id="heading" class="gradient-text" >Github Search</p> <br>
-      <p id="sub-heading" class="gradient-text">Find any Github Repo in two easy steps!</p>
-    </div>
-    <p id="sub-heading" class="gradient-text">Start typing below to get results</p>
+      <div class="logo">
+
+      </div>
+
       <form>
         <div class="mb-3">
-        <input type="email" class="form-control" placeholder="Username" [(ngModel)] = "result" name="result" (keyup)='searchUser()' autocomplete="off">
+        <input type="email" id="username" class="form-control" placeholder="enter github username..." [(ngModel)] = "result" name="result" (keyup)='searchUser()' autocomplete="off">
         </div>
       </form>
+
+
       <div class="card">
         <p><img src="{{ user.photo }}" alt="" /></p>
         <p>Name: {{ user.userName }}</p>
@@ -16,7 +17,9 @@
         <p>Followers: {{user.followers}}</p>
         <p>Following: {{user.following}}</p>
         <p>Repositories: {{user.repos}}</p>
-        <button (click)= 'searchUserRepo()'>View Repos</button>
+        <button (click)= 'searchUserRepo()'>View {{ user.userName }}'s Repositories</button>
         <app-user-repo [repos] = 'userRepos'></app-user-repo>
       </div>
+
+
   </div>
