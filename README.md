@@ -1,8 +1,18 @@
-# GithubSearch
+# Linkable
+
+##### By Venesa Atieno 
+### Linkable's official website.
 
 Users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.14.
+
+## Site Screenshot
+
+Here's an image of the design of the site :
+
+Landing page:
+![landing page](/src/assets/linkable.png)
 
 ## Development server
 
